@@ -1,0 +1,6 @@
+public static byte[] random(int length)
+        {
+            byte[] byteArray = new byte[length];
+            new System.Random().NextBytes(byteArray); //fill with random bytes
+            return byteArray;
+        }
